@@ -3,7 +3,7 @@ class Money {
     protected String currency;
 
     Money times(int multiplier) {
-        return null;
+        return new Money(amount * multiplier, currency);
     }
 
     Money(int amount, String currency) {
